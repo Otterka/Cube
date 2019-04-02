@@ -1,0 +1,57 @@
+<!DOCTYPE>
+<head>
+	<link rel="stylesheet" href="style.css">
+	<script type="text/javascript" src="kostka.js"></script>
+	<title>Rotating cube</title>
+</head>
+<html>
+	<body>
+		<div class="container">
+			<div id="cube">
+				<div class="front">
+					<div></div>
+				</div>
+				<div class="back">
+					<div></div>
+					<div></div>
+				</div>
+				<div class="left">
+					<div></div>
+					<div></div>
+					<div></div>
+				</div>
+				<div class="right">
+					<div></div>
+					<div></div>
+					<div></div>
+					<div></div>
+				</div>
+				<div class="top">
+					<div></div>
+					<div></div>
+					<div></div>
+					<div></div>
+					<div></div>
+				</div>
+				<div class="bottom">
+					<div></div>
+					<div></div>
+					<div></div>
+					<div></div>
+					<div></div>
+					<div></div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="buttons">
+			<h2>Choose side to rotate the cube: </h2>
+			<button class="button" onclick="changeSide('front')" >front</button>
+			<button class="button" onclick="changeSide('right')" >right</button>
+			<button class="button" onclick="changeSide('back')" >back</button>
+			<button class="button" onclick="changeSide('left')" >left</button>
+			<button class="button" onclick="changeSide('top')" >top</button>
+			<button class="button" onclick="changeSide('bottom')" >bottom</button>
+		</div>
+	</body>
+</html>
